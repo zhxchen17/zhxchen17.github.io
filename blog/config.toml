@@ -1,0 +1,4 @@
+baseURL = "https://zhxchen17.github.io/"
+languageCode = "en-us"
+title = "OTLab"
+theme = "otlab"

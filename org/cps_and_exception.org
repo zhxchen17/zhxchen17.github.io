@@ -1,0 +1,14 @@
+#+TITLE: 目标子串的期望个数
+#+AUTHOR: zhxchen17
+#+DATE: 2018-03-15
+
+#+HUGO_BASE_DIR: ../blog/
+
+#+HUGO_SECTION: posts
+#+HUGO_TAGS: single toml
+#+HUGO_CATEGORIES: cat1 cat2
+
+#+HUGO_DRAFT: false
+
+** 期中考试
+

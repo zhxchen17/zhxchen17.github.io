@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+<div class="columns">
+    <div class ="column col-5 col-mx-auto" style="background-color: white; border-style: solid; border-width: thin; padding: 1em; color: black;">
+        <section class="blog-post">
+            <h1>{{ .Title }}</h1>
+            <p class="blog-post-subheader">
+                {{ .Date.Format (.Site.Params.dateform | default "Jan 02, 2006") }}
+            </p>
+            <div class="blog-post-content">
+                {{ .Content }}
+            </div>
+        </section>
+    </div>
+</div>
+{{ partial "footer.html" . }}

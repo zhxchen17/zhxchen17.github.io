@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	      <meta charset="utf-8">
+	      <meta name="viewport" content="width=device-width, initial-scale=1">
+	      <!-- COMMON TAGS -->
+	      <title>{{ .Title }}</title>
+	      <!-- Search Engine -->
+	      <meta name="description" content="{{ .Description }}">
+	      <meta name="image" content="{{ $.Param "image" }}">
+	      <!-- Schema.org for Google -->
+	      <meta itemprop="name" content="{{ .Title }}">
+	      <meta itemprop="description" content="{{ .Description }}">
+	      <meta itemprop="image" content="{{ $.Param "image" }}">
+	      <!-- Google Analytics -->
+	      {{ template "_internal/google_analytics_async.html" . }}
+	      <!-- highlight.js -->
+	      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+	      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	      <script>hljs.initHighlightingOnLoad();</script>
+
+        <link rel="stylesheet" href="/css/spectre.css">
+        <link rel="stylesheet" href="/css/spectre-exp.css">
+        <link rel="stylesheet" href="/css/spectre-icons.css">
+    </head>
+    <body class="bg-gray">
+        <div class="container">
+        <section id="page-title">
+            <div class="text-center" style="margin-top: 1em;">
+                <h1><a href="/">{{ .Site.Params.sitename | default "OTLab"}}</a></h1>
+            </div>
+        </section>
+
+
