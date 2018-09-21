@@ -6,9 +6,28 @@
     <description>Recent content in Tags on OTLab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 20 Sep 2018 00:00:00 -0400</lastBuildDate>
     
         <atom:link href="https://zhxchen17.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Single</title>
+      <link>https://zhxchen17.github.io/tags/single/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://zhxchen17.github.io/tags/single/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toml</title>
+      <link>https://zhxchen17.github.io/tags/toml/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://zhxchen17.github.io/tags/toml/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
