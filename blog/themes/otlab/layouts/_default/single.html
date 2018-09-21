@@ -4,7 +4,7 @@
         <section class="blog-post">
             <h1>{{ .Title }}</h1>
             <p class="blog-post-subheader">
-                {{ .Date.Format (.Site.Params.dateform | default "Jan 02, 2006") }}
+                {{ delimit .Params.author ", " }} - {{ .Date.Format (.Site.Params.dateform | default "Jan 02, 2006") }}
             </p>
             <div class="blog-post-content">
                 {{ .Content }}
